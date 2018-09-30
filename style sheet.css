@@ -1,0 +1,177 @@
+/*site basics */
+.header {
+    padding: 20px; 
+    text-align: center; 
+    background: #530eac; 
+    color: white; 
+}
+
+body {
+align-self: center;
+
+}
+
+.header h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.textbox {
+    width: flex;
+    border: 5px solid #530eac;
+    padding: 25px;
+    margin: 25px;
+    background-color: rgba(143, 22, 167, 0.5);
+    display: table-cell;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.alttextbox {
+    width: flex;
+    border: 5px solid #530eac;
+    padding: 25px;
+    margin: 25px;
+    background-color: rgba(143, 22, 167, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    overflow: hidden; 
+    background-color: rgb(143, 22, 167); 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar a {
+    float: left; 
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 20px; 
+    text-decoration: none; 
+}
+
+.navbar a.right {
+    float: right; 
+}
+
+.navbar a:hover {
+    background-color: rgb(235, 154, 255); 
+    color: black; 
+}
+
+body {
+    background: url("http://pavbca.com/walldb/original/8/f/0/449060.jpg"), no-repeat right top;
+    background-attachment: fixed;
+    background-size: flex;
+    
+}
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+/*Main page specific*/
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px;
+    float: left;
+}
+
+ td, #CV th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: rgba(143, 22, 167, 0.5);}
+
+tr:hover {background-color: rgba(143, 22, 167);}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #530eac;
+    color: white;
+}
+
+img{
+    margin: 20px;
+
+}
+
+/*hobbies specific*/
+
+.collumn{
+    column-count:2;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: #530eac;
+    border: 5px solid #530eac;
+    padding: 25px;
+    margin: 25px;
+    background-color: rgba(143, 22, 167, 0.5);
+}
+
+div.gallery {
+    margin: 10px;
+    border: 5px solid rgba(143, 22, 167, 0.5);
+    float: left;
+    width: 400px;
+}
+
+div.gallery:hover {
+    border: 5px solid #530eac;
+}
+
+div.gallery img {
+    width: 90%;
+    height: auto;
+}
+
+div.desc {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: 5px solid #530eac;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(143, 22, 167, 0.5);
+    text-align: center;
+}
+
+/*contact info page specific*/
+
+form {
+    float: left;
+    text-align: center;
+    color: white;
+    border: 5px solid #530eac;
+    padding: 25px;
+    margin: 25px;
+    background-color: rgba(143, 22, 167, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+}
